@@ -1,0 +1,6 @@
+/alacritty/*
+!/alacritty/alacritty.toml
+
+/nvim/lazy-lock.json
+
+/tmux/plugins

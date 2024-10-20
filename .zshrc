@@ -16,7 +16,13 @@ esac
 export TMUX_CONF=~/.config/tmux/tmux.conf
 alias tmux="tmux -f $TMUX_CONF"
 
+# Enable vi mode
 bindkey -v
+
+# Allow <c-p/n> to access command history
+bindkey "^P" up-line-or-history
+bindkey "^N" down-line-or-history
+
 source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

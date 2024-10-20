@@ -10,3 +10,7 @@ italic.family = "FiraCode Nerd Font"
 bold_italic.family = "FiraCode Nerd Font"
 
 size = 19.0
+
+[window]
+
+startup_mode = "Fullscreen"

@@ -72,8 +72,12 @@ vim.keymap.set('n', '<C-h>', '<cmd> TmuxNavigateLeft<CR>')
 vim.keymap.set('n', '<C-j>', '<cmd> TmuxNavigateDown<CR>')
 vim.keymap.set('n', '<C-k>', '<cmd> TmuxNavigateUp<CR>')
 vim.keymap.set('n', '<C-l>', '<cmd> TmuxNavigateRight<CR>')
-vim.keymap.set('n', '<C-\\>', '<cmd> TmuxNavigatePrevious<CR>')
 
 -- Oil keymap
 vim.keymap.set("n", "<leader>-", "<CMD>Oil<CR>",
                {desc = "Open parent directory"})
+
+-- Leap keymaps
+vim.keymap.set({'n', 'x', 'o'}, '<leader>s', '<Plug>(leap-forward)')
+vim.keymap.set({'n', 'x', 'o'}, '<leader>S', '<Plug>(leap-backward)')
+vim.keymap.set({'n', 'x', 'o'}, '<leader>gs', '<Plug>(leap-from-window)')

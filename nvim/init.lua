@@ -1,5 +1,5 @@
 require("config.lazy")
-require("keymaps")
+require("config.keymaps")
 
 vim.cmd.colorscheme("catppuccin-macchiato")
 
@@ -23,4 +23,3 @@ vim.api.nvim_create_autocmd("FileType", {
 -- Line numbers
 vim.wo.number = true
 vim.wo.relativenumber = true
-

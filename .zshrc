@@ -30,3 +30,4 @@ source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # Colored ls
 alias ls='ls -G'
+. "/Users/Zarif/.deno/env"

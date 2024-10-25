@@ -7,6 +7,9 @@ return {
         "luckasRanarison/tailwind-tools.nvim", "onsails/lspkind-nvim"
     },
     config = function()
+        local luasnip = require("luasnip")
+        luasnip.filetype_extend("typescriptreact", {"html"})
+
         require("luasnip.loaders.from_vscode").lazy_load()
         local cmp = require 'cmp'
 

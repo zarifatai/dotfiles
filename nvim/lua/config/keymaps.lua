@@ -32,7 +32,7 @@ vim.keymap.set('n', '<leader>l', ':vsplit<CR><C-w>l',
                {desc = 'Create a new buffer (right)'})
 
 -- Bufferline keymaps
-for i = 1, 9 do
+for i = 1, 5 do
     vim.keymap.set('n', '<leader>' .. i,
                    ':BufferLineGoToBuffer ' .. i .. '<CR>',
                    {desc = 'Go to buffer ' .. i .. ''})

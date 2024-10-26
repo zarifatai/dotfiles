@@ -23,3 +23,6 @@ vim.api.nvim_create_autocmd("FileType", {
 -- Line numbers
 vim.wo.number = true
 vim.wo.relativenumber = true
+
+-- Delay for CursorHold events (in milliseconds)
+vim.o.updatetime = 250

@@ -5,6 +5,6 @@ return {
     -- Mason LSPConfig: bridges Mason with lspconfig
     {
         "williamboman/mason-lspconfig.nvim",
-        opts = {ensure_installed = {"pyright", "ts_ls"}}
+        opts = {ensure_installed = {"pyright", "ts_ls", "tailwindcss"}}
     }
 }

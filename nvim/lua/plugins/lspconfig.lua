@@ -1,7 +1,9 @@
 return {
     "neovim/nvim-lspconfig",
+    opts = {inlay_hints = {enabled = true}},
     config = function()
         local capabilities = require('cmp_nvim_lsp').default_capabilities()
+        local util = require "lspconfig/util"
         require'lspconfig'.pyright.setup {capabilities = capabilities}
         require'lspconfig'.ts_ls.setup {
             capabilities = capabilities,

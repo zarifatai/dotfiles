@@ -26,3 +26,5 @@ vim.wo.relativenumber = true
 
 -- Delay for CursorHold events (in milliseconds)
 vim.o.updatetime = 250
+
+vim.lsp.inlay_hint.enable(true)

@@ -1,7 +1,7 @@
 # My Dotfiles
 Currently included: `zshrc`, `alacritty`, `nvim`, `tmux`, `p10k`
 
-Dotfile `zshrc` is written for Mac.
+Dotfile `zshrc` contains configuration specific for MacOS.
 
 The following symlinks should be created so that the system can use them:
 ```[zsh]
